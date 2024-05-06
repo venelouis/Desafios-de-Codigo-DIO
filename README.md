@@ -1,4 +1,4 @@
-<h1> Desafios de Codigo da DIO</h1><img src="img/diome.png" width="100px">
+<h1> Desafios de Codigo da DIO <img src="img/diome.png" width="100px"></h1><img src="img/diome.png" width="100px">
 Repositório com os desafios de Código da <a href="https://web.dio.me">DIO.me</a> que realizei.
 
 <p><img src="img/diome.png" width="100px"></p>
