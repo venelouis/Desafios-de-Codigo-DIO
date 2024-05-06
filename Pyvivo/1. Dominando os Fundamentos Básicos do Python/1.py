@@ -1,5 +1,5 @@
 '''1 / 3 - Verificador de Planos de Internet
-Desafio
+Desafio:
 Uma empresa de telecomunicações deseja criar uma solução algorítmica que ajude aos seus clientes 
 a escolherem o plano de internet ideal com base em seu consumo mensal de dados. 
 Para a resolução, você pode solicitar ao usuário que insira o seu consumo, sendo este um valor 'float'. 
@@ -34,6 +34,8 @@ Plano Prata Fibra - 100Mbps
 21
 
 Plano Premium Fibra - 300Mbps
+
+# Providenciado pela DIO:
 
 # TODO: Crie uma Função: recomendar_plano para receber o consumo médio mensal:
 
