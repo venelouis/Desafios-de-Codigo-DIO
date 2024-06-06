@@ -4,3 +4,4 @@ Repositório com os desafios de Código da <a href="https://web.dio.me">DIO.me</
 - <a href="./tudo/javai">Java AI Powered (TONNIE)</a> (matriculas encerradas)
 - <a href="./tudo/SQUADIO">Python Data Analytics (squadio)</a> (matriculas encerradas)
 - <a href="./tudo/Pyvivo">Python AI Backend Developer (vivo)</a>
+- <a href="./tudo/Nexaic3">Fundamentos de IA Generativa e Claude 3 (Nexa)</a>
