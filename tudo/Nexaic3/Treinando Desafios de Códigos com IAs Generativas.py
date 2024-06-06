@@ -67,12 +67,7 @@ def encontrar_modelo(caracteristica_fornecida):
     return "Modelo não encontrado."
 # TODO: Itere sobre cada chave e valor no dicionário caracteristicas_modelos:
 
-
-
-
 # TODO: Verifique se a palavra-chave (característica) está contida na característica fornecida (ignorando maiúsculas/minúsculas):
-
-
 
 # TODO: Se encontrada, retorne o modelo correspondente:
            
