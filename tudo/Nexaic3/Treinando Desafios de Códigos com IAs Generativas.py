@@ -60,18 +60,25 @@ caracteristicas_modelos = {
 }
 
 # TODO: Crie uma função 'encontrar_modelo' para encontrar o modelo correspondente à característica fornecida: 
-
-
-
-
+def encontrar_modelo(caracteristica_fornecida):
+    for chave, valor in caracteristicas_modelos.items():
+        if chave in caracteristica_fornecida.lower():
+            return valor
+    return "Modelo não encontrado."
 # TODO: Itere sobre cada chave e valor no dicionário caracteristicas_modelos:
-   
+
+
+
+
 # TODO: Verifique se a palavra-chave (característica) está contida na característica fornecida (ignorando maiúsculas/minúsculas):
-        
+
+
+
 # TODO: Se encontrada, retorne o modelo correspondente:
            
 # TODO: Se não encontrada, retorne uma mensagem indicando que o "Modelo não encontrado.":
- 
+
+
 
 # Entrada do usuário
 caracteristica_fornecida = input()
