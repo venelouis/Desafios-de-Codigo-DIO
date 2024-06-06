@@ -66,26 +66,44 @@ Saída:
 Seu orçamento é muito baixo para recomendar um modelo adequado.
 '''
 
+
 # TODO: Crie uma lista de dicionários representando os três modelos do Amazon Bedrock, com 'nome', 'pontuacao_desempenho' e 'preco_mensal' :
+modelos_disponiveis = [
+  {'nome': 'Claude 3 Opus', 'pontuacao_desempenho': 9, 'preco_mensal': 600.00},
+  {'nome': 'Claude 3 Sonnet', 'pontuacao_desempenho': 8, 'preco_mensal': 450.00},
+  {'nome': 'Claude 3 Haiku', 'pontuacao_desempenho': 7, 'preco_mensal': 350.00}
+]
 
 # TODO: Defina a função 'recomendar_modelo' e seus dois parâmetros 'modelos' e 'orcamento':
 
+def recomendar_modelo(modelos, orcamento):
+  """
+  Recomenda um modelo de acordo com o orçamento e desempenho.
+
+  Args:
+    modelos (list): Lista de dicionários, cada um representando um modelo com 'nome', 'pontuacao_desempenho' e 'preco_mensal'.
+    orcamento (float): Orçamento do usuário.
+
+  Returns:
+    tuple: Um tupla contendo o nome do modelo recomendado e uma string explicando o motivo da recomendação.
+  """
+
 # TODO: Verifique se o orçamento fornecido é suficiente. Se o orçamento for inferior a 250, implemente a resposta adequada:
+  
+  if orcamento < 250:
+    return None, "Seu orçamento é muito baixo para recomendar um modelo adequado."  
+    return None, "TODO"
 
+  modelos_dentro_orcamento = [modelo for modelo in modelos if modelo['preco_mensal'] <= orcamento]
 
+  # Caso nenhum modelo esteja dentro do orçamento
+  if not modelos_dentro_orcamento:
+    modelo_mais_proximo = min(modelos, key=lambda x: abs(x['preco_mensal'] - orcamento))
+    return modelo_mais_proximo['nome'], "Este modelo está mais próximo do seu orçamento."
 
-        return None, "TODO"
-
-    modelos_dentro_orcamento = [modelo for modelo in modelos if modelo['preco_mensal'] <= orcamento]
-
-    # Caso nenhum modelo esteja dentro do orçamento
-    if not modelos_dentro_orcamento:
-        modelo_mais_proximo = min(modelos, key=lambda x: abs(x['preco_mensal'] - orcamento))
-        return modelo_mais_proximo['nome'], "Este modelo está mais próximo do seu orçamento."
-
-    # Caso todos os modelos estejam dentro do orçamento
-    melhor_modelo = max(modelos_dentro_orcamento, key=lambda x: x['pontuacao_desempenho'])
-    return melhor_modelo['nome'], "Melhor desempenho dentro do seu orçamento."
+  # Caso todos os modelos estejam dentro do orçamento
+  melhor_modelo = max(modelos_dentro_orcamento, key=lambda x: x['pontuacao_desempenho'])
+  return melhor_modelo['nome'], "Melhor desempenho dentro do seu orçamento."
 
 # Solicitar orçamento do usuário
 orcamento_usuario = float(input())
@@ -95,6 +113,6 @@ modelo_recomendado, motivo = recomendar_modelo(modelos_disponiveis, orcamento_us
 
 # Saída da recomendação
 if modelo_recomendado:
-    print(modelo_recomendado + ". " + motivo)
+  print(modelo_recomendado + ". " + motivo)
 else:
-    print(motivo)
+  print(motivo)
