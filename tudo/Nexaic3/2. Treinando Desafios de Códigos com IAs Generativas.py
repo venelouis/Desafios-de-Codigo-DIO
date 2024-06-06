@@ -115,11 +115,6 @@ modelos = [
 ]
 
 def recomendar_modelo(caracteristicas):
-    
-
-
-
-
     modelo_recomendado = None
   # Aqui é convertido as capacidades inseridas pelo usuário para minúsculas:
     capacidades_usuario = [capacidade.lower() for capacidade in caracteristicas['Capacidades']]
