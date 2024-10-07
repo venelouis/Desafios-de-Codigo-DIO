@@ -6,3 +6,4 @@ Repositório com os desafios de Código da <a href="https://web.dio.me">DIO.me</
 - <a href="./tudo/Pyvivo">Python AI Backend Developer (vivo)</a> (matriculas encerradas)
 - <a href="./tudo/Nexaic3">Fundamentos de IA Generativa e Claude 3 (Nexa)</a> (matriculas encerradas)
 - <a href="./tudo/santaws24">Santander 2024 - Preparatório Certificação AWS</a> (seleção santander 2024 encerrada)
+- <a href="./tudo/santaws24">Microsoft Azure Essentials</a>
