@@ -8,3 +8,4 @@ Repositório com os desafios de Código da <a href="https://web.dio.me">DIO.me</
 - <a href="./tudo/santaws24">Santander 2024 - Preparatório Certificação AWS</a> (seleção santander 2024 encerrada)
 - <a href="./tudo/santaws24">Microsoft Azure Essentials</a>
 - <a href="./tudo/certchal1">Bootcamp Microsoft Certification Challenge #1 - AI 102</a>
+- <a href="./tudo/azureadv">Microsoft Azure Advanced</a>
