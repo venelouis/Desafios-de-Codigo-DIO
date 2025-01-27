@@ -7,5 +7,6 @@ Repositório com os desafios de Código da <a href="https://web.dio.me">DIO.me</
 - <a href="./tudo/Nexaic3">Fundamentos de IA Generativa e Claude 3 (Nexa)</a> (matriculas encerradas)
 - <a href="./tudo/santaws24">Santander 2024 - Preparatório Certificação AWS</a> (seleção santander 2024 encerrada)
 - <a href="./tudo/azure_essen">Microsoft Azure Essentials</a>
-- <a href="./tudo/certchal1">Bootcamp Microsoft Certification Challenge #1 - AI 102</a>
+- <a href="./tudo/certchal1">Bootcamp Microsoft Certification Challenge #1 - AI-102</a>
 - <a href="./tudo/azureadv">Microsoft Azure Advanced</a>
+- <a href="./tudo/certchal2">Bootcamp Microsoft Certification Challenge #2 - AZ-204</a>
